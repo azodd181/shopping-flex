@@ -27,17 +27,17 @@ button {
 }
 
 .body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Playfair Display", Arial, Helvetica, sans-serif;
   line-height: 1.5;
 }
 
 .products-header {
-  margin-top: 90px;
+  margin-top: 60px;
   margin-bottom: 40px;
 }
 
 .subtitle-1 {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Playfair Display", "Times New Roman", Times, serif;
   font-size: 42px;
   font-weight: 700;
   margin-bottom: 10px;
@@ -71,13 +71,18 @@ button {
   text-align: center;
 }
 
+.product-image {
+  min-height: 250px;
+  overflow: hidden;
+}
+
 .product-picture {
   display: block;
   width: 100%;
-  height: auto;
 }
 
 .product-title {
+  font-family: "Playfair Display";
   text-align: center;
   padding-top: 5px;
   font-size: 16px;
@@ -110,6 +115,7 @@ button {
   border-radius: 5px;
   padding: 16px 32px;
   margin-bottom: 10px;
+  color: #696969;
 }
 
 .button:hover {
