@@ -162,3 +162,8 @@ button {
   scale: 1.2;
   transition: 0.4s;
 }
+
+.copywriter {
+  font-size: 14px;
+  text-align: center;
+}
