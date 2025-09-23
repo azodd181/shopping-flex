@@ -124,19 +124,20 @@ button {
 
 .footer {
   background-color: #000;
-  padding: 20px 40px;
+  padding: 20px 0;
   color: white;
 }
 
 .footer-links {
-  justify-content: center;
+  text-align: center;
 }
 
 .footer-link {
+  font-family: var(--noto-sans);
+  font-size: 14px;
   color: inherit;
   margin-right: 10px;
   font-weight: 400;
-  font-size: 16px;
 }
 
 .footer-link:last-child {
@@ -154,8 +155,12 @@ button {
   align-items: center;
 }
 
+.footer-row > * + * {
+  margin-top: 24px;
+}
+
 .social-link {
-  margin: 24px 8px;
+  padding: 0 8px;
 }
 
 .social-link:hover {
@@ -164,6 +169,7 @@ button {
 }
 
 .copywriter {
+  font-family: var(--noto-sans);
   font-size: 14px;
   text-align: center;
 }
